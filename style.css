@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+    font-weight:300;
+    font-size:16px;
+    font-style:initial;
+}
+a{
+    color: white;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+    width:100%;
+    justify-content: space-around;
+    color:white;
+}
+#navbar {
+    height:50px;
+    width:100vw;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    text-decoration: none;
+}
+li { 
+    list-style-type:none;
+    text-decoration: none;
+}
+#logo {
+    height :30px;
+    width:150px;
+    background-image: url("images.png");
+    background-size:cover;
+    z-index:2;
+}
+.location{
+    height:30px;
+    width:150px;
+    border-radius:5px;
+    color:white;
+}
+.searchbar {
+    height:40px;
+    border-radius:5px;
+    color:rgb(0, 0, 0);
+    background-color: whitesmoke;
+    align-self: center;
+    flex-wrap: nowrap;
+    width:500px;
+    border-radius:10px;
+    border:2px ridge antiquewhite;
+    font:normal 16px 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+}
+#signin, #cart {
+    height:30px;
+    width:80px;
+    border-radius:5px;
+    color: white;
+}
+#outerbox {
+    height: 700px;
+    width:100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("amazon.jpeg");
+    border-radius: 15px;
+    z-index:2;
+    background-size:cover;
+    margin:1px;
+}
+#innerbox {
+    height:400px;
+    width:90%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight:500px;
+    font-style: oblique;
+}
+b {
+    align-self: center;
+    font-size: 40px;
+    text-decoration: wavy underline;
+    align-content: center;
+    display:flex;
+    justify-content: center;
+    font-weight:bolder;
+    margin:10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    margin:0;
+    padding:0;
+    font-size:small;
+    width:100%;
+    display:block;
+}
