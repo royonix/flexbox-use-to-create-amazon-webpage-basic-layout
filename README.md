@@ -30,4 +30,5 @@
 
 ## **🎯 Project Goal**
 
-  This mini-project is part of my learning journey as I explore web development. The focus here is understanding how real e-commerce websites design their navigation bars and recreating them using only HTML and CSS.
+  This mini-project is part of my learning journey as I explore web development.\
+  The focus here is understanding how real e-commerce websites design their navigation bars and recreating them using only HTML and CSS.
